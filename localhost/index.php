@@ -1,1 +1,3 @@
-<?php readfile('public/login.php'); ?>
+<?php 
+	header('Location: public/login.php');
+?>
