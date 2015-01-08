@@ -10,7 +10,7 @@
      */
 
     require_once("constants.php");
-    require_once("PHPMailer/class.phpmailer.php");
+    require 'PHPMailer-master/PHPMailerAutoload.php';
 
     /**
      * Apologizes to user with message.
