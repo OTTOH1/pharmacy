@@ -4,6 +4,7 @@
     require("../includes/config.php"); 
 
     // render main page
-    render("home.php", ["title" => "Home"]);
+    $page['title'] = "Home";
+    render("home.php", $page);
 
 ?>
