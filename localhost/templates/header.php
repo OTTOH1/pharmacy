@@ -7,11 +7,11 @@
         <!-- Google api -->
         <script src="https://www.google.com/jsapi"></script>
         <!-- Coordinates of drugstores -->
-        <script src="/js/houses.js"></script>
+        <script src="js/houses.js"></script>
 
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
-        <link href="/css/styles.css" rel="stylesheet"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet"/>
 
         <?php if (isset($title)): ?>
             <title>ECHO pharmacy: <?= htmlspecialchars($title) ?></title>
@@ -19,9 +19,9 @@
             <title>ECHO pharmacy</title>
         <?php endif ?>
 
-        <script src="/js/jquery-1.10.2.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/scripts.js"></script>     
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>     
          
     </head>
 
